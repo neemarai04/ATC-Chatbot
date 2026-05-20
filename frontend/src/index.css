@@ -1,0 +1,27 @@
+:root {
+  --bg-app: #f0f2f5;
+  --atc-blue: #1a365d; 
+  --atc-accent: #2b6cb0;
+  --text-main: #1a202c;
+  --text-muted: #4a5568;
+  --border-color: #cbd5e0;
+  
+  /* Clean, highly readable font for technical text */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  height: 100vh;
+  line-height: 1.5;
+}
+
+#root { height: 100%; }
