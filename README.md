@@ -7,7 +7,6 @@ The system is designed to provide professional aviation and ATC-related assistan
 
 ## Features
 
-
 * AI-powered chatbot interface
 * Retrieval-Augmented Generation (RAG)
 * Context-aware ATC query responses
@@ -108,6 +107,7 @@ npm run dev
 
 After starting the frontend, open the local URL shown in the terminal (usually `http://localhost:5173`).
 
+---
 
 ## Model Configuration
 
@@ -132,6 +132,7 @@ This project is intended for:
 The assistant is restricted to aviation and ATC-related topics only.
 
 ---
+
 ## Future Improvements
 
 * Improved conversational accuracy
@@ -141,6 +142,7 @@ The assistant is restricted to aviation and ATC-related topics only.
 * Enhanced NLP processing
 
 ---
+
 ## Author
 
 Neema J Rai
