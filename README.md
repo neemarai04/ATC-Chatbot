@@ -1,31 +1,53 @@
-# ATC Gemini Assistant API
+# ATC Chatbot
 
-An AI-powered Air Traffic Control (ATC) assistant backend developed using FastAPI and Google Gemini API.  
-The system is designed to provide professional aviation and ATC-related assistance with structured, operational-style responses.
+An AI-powered Air Traffic Control (ATC) assistant developed during an internship under the EMBRACE initiative at NITK Surathkal. 
+The application provides domain-specific assistance for aviation and ATC-related queries using Google Gemini, delivering structured and professional responses through a FastAPI backend and a React-based frontend.
 
 ---
 
 ## Features
 
-* AI-powered chatbot interface
-* Retrieval-Augmented Generation (RAG)
-* Context-aware ATC query responses
-* Interactive frontend dashboard
-* Fast and responsive UI
-* Backend integration using Python
+* AI-powered aviation and ATC assistant
+* Context-aware responses for ATC and aviation queries
+* FastAPI backend for efficient request handling
+* Interactive React dashboard
+* Responsive user interface
+* Domain-restricted conversations focused on aviation and ATC
 
 ---
 
 ## Technologies Used
 
-- Python
-- FastAPI
-- Google Gemini API
-- Pydantic
-- React
-- vite
-- JavaScript
-- CSS
+### Frontend
+
+* React
+* Vite
+* JavaScript
+* CSS
+
+### Backend
+
+* Python
+* FastAPI
+* Google Gemini API
+* Pydantic
+
+---
+
+## Project Structure
+
+```text
+ATC-Chatbot/
+│
+├── main.py
+├── requirements.txt
+├── .env
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+```
 
 ---
 
@@ -35,6 +57,7 @@ The system is designed to provide professional aviation and ATC-related assistan
 
 ```bash
 git clone "https://github.com/neemarai04/ATC-Chatbot.git"
+cd ATC-Chatbot
 ```
 
 ### Create a Virtual Environment
@@ -61,7 +84,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-
 ### Install Frontend Dependencies
 
 ```bash
@@ -86,6 +108,7 @@ The application securely loads the API key using environment variables.
 ---
 
 ## Running the Application
+
 ### Start the Backend
 
 From the project root directory:
@@ -124,10 +147,10 @@ You may replace it with any supported Gemini model based on performance or deplo
 ## Project Scope
 
 This project is intended for:
-- Educational purposes
-- Research and experimentation
-- ATC communication assistance simulations
-- Aviation-related AI applications
+* Educational purposes
+* Research and experimentation
+* ATC communication assistance simulations
+* Aviation-related AI applications
 
 The assistant is restricted to aviation and ATC-related topics only.
 
@@ -137,9 +160,10 @@ The assistant is restricted to aviation and ATC-related topics only.
 
 * Improved conversational accuracy
 * Better context retrieval
-* Voice input support
-* Real-time ATC stream integration
-* Enhanced NLP processing
+* Voice-based interaction
+* Integration with live ATC transcription systems
+* Support for aviation document search
+* Multi-turn conversation memory
 
 ---
 
