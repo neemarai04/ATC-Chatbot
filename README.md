@@ -1,7 +1,8 @@
 # ATC Chatbot
 
-An AI-powered Air Traffic Control (ATC) assistant developed during an internship under the EMBRACE initiative at NITK Surathkal. 
-The application provides domain-specific assistance for aviation and ATC-related queries using Google Gemini, delivering structured and professional responses through a FastAPI backend and a React-based frontend.
+An AI-powered Air Traffic Control (ATC) assistant developed during an internship under the EMBRACE initiative at NITK Surathkal. The application is designed to provide domain-specific assistance for aviation and ATC-related queries using the Google Gemini 2.5 Flash model. It delivers structured, context-aware, and professional responses through a FastAPI backend and an interactive React-based frontend.
+
+The chatbot is intended to support aviation learning, operational understanding, and AI-driven assistance by answering questions related to ATC procedures, aviation terminology, communication protocols, and flight operations. Built with a modular architecture, the system enables efficient request handling, seamless frontend-backend integration, and can be extended with additional aviation knowledge sources and features in the future.
 
 ---
 
