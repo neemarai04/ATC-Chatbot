@@ -140,6 +140,7 @@ The assistant is restricted to aviation and ATC-related topics only.
 * Real-time ATC stream integration
 * Enhanced NLP processing
 
+---
 ## Author
 
 Neema J Rai
